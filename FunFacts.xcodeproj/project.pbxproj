@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A31EE0A31D615E1F005DC2A8 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31EE0A21D615E1F005DC2A8 /* FactModel.swift */; settings = {ASSET_TAGS = (); }; };
+		A31EE0A51D62C14F005DC2A8 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31EE0A41D62C14F005DC2A8 /* ColorModel.swift */; settings = {ASSET_TAGS = (); }; };
 		A3554D4E1D52F2770045B472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3554D4D1D52F2770045B472 /* AppDelegate.swift */; };
 		A3554D501D52F2770045B472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3554D4F1D52F2770045B472 /* ViewController.swift */; };
 		A3554D531D52F2770045B472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3554D511D52F2770045B472 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		A31EE0A21D615E1F005DC2A8 /* FactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		A31EE0A41D62C14F005DC2A8 /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 		A3554D4A1D52F2770045B472 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3554D4D1D52F2770045B472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3554D4F1D52F2770045B472 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				A3554D4D1D52F2770045B472 /* AppDelegate.swift */,
 				A3554D4F1D52F2770045B472 /* ViewController.swift */,
 				A31EE0A21D615E1F005DC2A8 /* FactModel.swift */,
+				A31EE0A41D62C14F005DC2A8 /* ColorModel.swift */,
 				A3554D511D52F2770045B472 /* Main.storyboard */,
 				A3554D541D52F2780045B472 /* Assets.xcassets */,
 				A3554D561D52F2780045B472 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				A31EE0A31D615E1F005DC2A8 /* FactModel.swift in Sources */,
 				A3554D501D52F2770045B472 /* ViewController.swift in Sources */,
 				A3554D4E1D52F2770045B472 /* AppDelegate.swift in Sources */,
+				A31EE0A51D62C14F005DC2A8 /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
