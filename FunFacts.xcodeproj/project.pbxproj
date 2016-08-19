@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A31EE0A31D615E1F005DC2A8 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31EE0A21D615E1F005DC2A8 /* FactModel.swift */; settings = {ASSET_TAGS = (); }; };
-		A31EE0A51D62C14F005DC2A8 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31EE0A41D62C14F005DC2A8 /* ColorModel.swift */; settings = {ASSET_TAGS = (); }; };
+		A31EE0A31D615E1F005DC2A8 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31EE0A21D615E1F005DC2A8 /* FactModel.swift */; };
+		A31EE0A51D62C14F005DC2A8 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31EE0A41D62C14F005DC2A8 /* ColorModel.swift */; };
 		A3554D4E1D52F2770045B472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3554D4D1D52F2770045B472 /* AppDelegate.swift */; };
 		A3554D501D52F2770045B472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3554D4F1D52F2770045B472 /* ViewController.swift */; };
 		A3554D531D52F2770045B472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3554D511D52F2770045B472 /* Main.storyboard */; };
@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		A31EE0A21D615E1F005DC2A8 /* FactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
 		A31EE0A41D62C14F005DC2A8 /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
-		A3554D4A1D52F2770045B472 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3554D4A1D52F2770045B472 /* Life Rules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Rules.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3554D4D1D52F2770045B472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3554D4F1D52F2770045B472 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A3554D521D52F2770045B472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		A3554D4B1D52F2770045B472 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A3554D4A1D52F2770045B472 /* FunFacts.app */,
+				A3554D4A1D52F2770045B472 /* Life Rules.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A3554D491D52F2770045B472 /* FunFacts */ = {
+		A3554D491D52F2770045B472 /* Life Rules */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3554D5C1D52F2780045B472 /* Build configuration list for PBXNativeTarget "FunFacts" */;
+			buildConfigurationList = A3554D5C1D52F2780045B472 /* Build configuration list for PBXNativeTarget "Life Rules" */;
 			buildPhases = (
 				A3554D461D52F2770045B472 /* Sources */,
 				A3554D471D52F2770045B472 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = FunFacts;
+			name = "Life Rules";
 			productName = FunFacts;
-			productReference = A3554D4A1D52F2770045B472 /* FunFacts.app */;
+			productReference = A3554D4A1D52F2770045B472 /* Life Rules.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,6 +101,7 @@
 				TargetAttributes = {
 					A3554D491D52F2770045B472 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = S22ZV4SZ8D;
 					};
 				};
 			};
@@ -117,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A3554D491D52F2770045B472 /* FunFacts */,
+				A3554D491D52F2770045B472 /* Life Rules */,
 			);
 		};
 /* End PBXProject section */
@@ -254,10 +255,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.germangrandson.FunFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -265,10 +269,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.germangrandson.FunFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -284,7 +291,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3554D5C1D52F2780045B472 /* Build configuration list for PBXNativeTarget "FunFacts" */ = {
+		A3554D5C1D52F2780045B472 /* Build configuration list for PBXNativeTarget "Life Rules" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3554D5D1D52F2780045B472 /* Debug */,

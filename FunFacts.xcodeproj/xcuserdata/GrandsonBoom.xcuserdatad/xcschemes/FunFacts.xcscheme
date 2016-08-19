@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A3554D491D52F2770045B472"
-               BuildableName = "FunFacts.app"
-               BlueprintName = "FunFacts"
+               BuildableName = "Life Rules.app"
+               BlueprintName = "Life Rules"
                ReferencedContainer = "container:FunFacts.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A3554D491D52F2770045B472"
-            BuildableName = "FunFacts.app"
-            BlueprintName = "FunFacts"
+            BuildableName = "Life Rules.app"
+            BlueprintName = "Life Rules"
             ReferencedContainer = "container:FunFacts.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A3554D491D52F2770045B472"
-            BuildableName = "FunFacts.app"
-            BlueprintName = "FunFacts"
+            BuildableName = "Life Rules.app"
+            BlueprintName = "Life Rules"
             ReferencedContainer = "container:FunFacts.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A3554D491D52F2770045B472"
-            BuildableName = "FunFacts.app"
-            BlueprintName = "FunFacts"
+            BuildableName = "Life Rules.app"
+            BlueprintName = "Life Rules"
             ReferencedContainer = "container:FunFacts.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
